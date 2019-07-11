@@ -1,0 +1,1175 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2CD32458A161AF8E4BA58B4310701AB3 /* AppCenterReactNativeShared */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B1AADDABC0FF92BF51AC88E6BD57DB25 /* Build configuration list for PBXAggregateTarget "AppCenterReactNativeShared" */;
+			buildPhases = (
+			);
+			dependencies = (
+				0051E4214884EF5346A2A55966EC832B /* PBXTargetDependency */,
+			);
+			name = AppCenterReactNativeShared;
+		};
+		A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D0944D0DEFF9CDF0CBE6D4A41B195020 /* Build configuration list for PBXAggregateTarget "AppCenter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AppCenter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1A28974E428D76378EB5F4D0C0380C53 /* Pods-instaClone-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE1FCC480F5185CA43E68754A60412F /* Pods-instaClone-tvOSTests-dummy.m */; };
+		3561DAE9AFA7543B2B18D27CC598AC5E /* Pods-instaClone-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BCD680769CE3A34E97BB9FFD7EE4F2 /* Pods-instaClone-tvOS-dummy.m */; };
+		5737E944C70DCB62C97B0F26A7E4428E /* Pods-instaCloneTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC419955633610C57213D962F26A17C /* Pods-instaCloneTests-dummy.m */; };
+		62BD506AF49954A55C9ADC82248A0DD5 /* Pods-instaClone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C4A0211C57F5A0335131AE30793AA6A /* Pods-instaClone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B0001A3C543D3DA69C8A4D27E4D70B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */; };
+		8CDA8835BE4864532465632FE8626669 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */; };
+		905B055407336CCD6556FFDC8B35E8FA /* Pods-instaCloneTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 901765FD85CDD2615CEABF4D6E382CFF /* Pods-instaCloneTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DF48394E44D411F12584E53B74504EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */; };
+		AA1C7D51D89BC2B155418876AFB758CD /* Pods-instaClone-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD149818960FFDE6A7E4E95FB3C6FCEB /* Pods-instaClone-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA584D8E8362A4AA6A214D36669098D /* Pods-instaClone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 951B0E518BC2CD16C0AF562DAA0D2948 /* Pods-instaClone-dummy.m */; };
+		C4FB0936A7077ED125AFE66BD72A87C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */; };
+		F2073320F46452C5B8BD65FAC59E691C /* Pods-instaClone-tvOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BCB49A829F181149E921DD51DDF6FF /* Pods-instaClone-tvOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3414719F541D8AA9258AAD508BD6EC72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD33F60BF94684ACAFA3621F2489A24D;
+			remoteInfo = "Pods-instaClone";
+		};
+		51A94E53EA3CEFA5D5B9ADBA475BBBA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5B84139442ADE9CF14B1B0606D9026;
+			remoteInfo = "Pods-instaClone-tvOS";
+		};
+		A5D5CFFE64BE5CD1FF41BB38DDA59CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3282A5B2437E609EEB85861D7ECE717;
+			remoteInfo = AppCenter;
+		};
+		CE79317110C59798F733744FF619FFB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CD32458A161AF8E4BA58B4310701AB3;
+			remoteInfo = AppCenterReactNativeShared;
+		};
+		D96B09CB6F7CDF72F3099DD83AD5AB87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3282A5B2437E609EEB85861D7ECE717;
+			remoteInfo = AppCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ADA48E7F3966DD766936F8954C1BB82 /* Pods_instaCloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_instaCloneTests.framework; path = "Pods-instaCloneTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A509041765CD8139932A88033D68213 /* Pods-instaClone-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-instaClone-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C4A0211C57F5A0335131AE30793AA6A /* Pods-instaClone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-instaClone-umbrella.h"; sourceTree = "<group>"; };
+		250D31CFEBC3BA738A8FE4B75D25EF03 /* Pods-instaClone-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-instaClone-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2ABB217D502431689F62EABA584161D6 /* Pods-instaClone-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-instaClone-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		440B829329570A460A274EC3AB35563B /* Pods_instaClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_instaClone.framework; path = "Pods-instaClone.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D3D93D5031F914DAD79D01673B45D8 /* Pods-instaCloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-instaCloneTests.release.xcconfig"; sourceTree = "<group>"; };
+		474E51E8D126876E14E4E7BB67AF1D79 /* Pods_instaClone_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_instaClone_tvOS.framework; path = "Pods-instaClone-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C3C1821883D89CB40775D2ADC0AF67 /* Pods-instaClone-tvOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-instaClone-tvOSTests-Info.plist"; sourceTree = "<group>"; };
+		53628B18AE386BE2D2A1E24BADA249C8 /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
+		54BCD680769CE3A34E97BB9FFD7EE4F2 /* Pods-instaClone-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-instaClone-tvOS-dummy.m"; sourceTree = "<group>"; };
+		60149D9BBE48AD20253E4B0CFE22B78E /* AppCenterPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterPush.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterPush.framework"; sourceTree = "<group>"; };
+		64FEF27862412AB30BCD4BAE8FBFC1B0 /* Pods-instaClone-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-instaClone-acknowledgements.markdown"; sourceTree = "<group>"; };
+		74A83C04675BE64FDC0C030155F1D2E7 /* Pods-instaClone-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-instaClone-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		760435C5BFDA5873C4EEDE9143B6CC8A /* AppCenterReactNativeShared.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenterReactNativeShared.xcconfig; sourceTree = "<group>"; };
+		78600FDF3572B9EC2B96B958DF798711 /* Pods-instaClone-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-instaClone-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C042675DF509A00B44DA8AA60B8D6DB /* Pods-instaCloneTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-instaCloneTests-Info.plist"; sourceTree = "<group>"; };
+		7F67F69274EF59F8D90BC9E9C2EA1AD9 /* Pods-instaClone-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-instaClone-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8BE1FCC480F5185CA43E68754A60412F /* Pods-instaClone-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-instaClone-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		8CC419955633610C57213D962F26A17C /* Pods-instaCloneTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-instaCloneTests-dummy.m"; sourceTree = "<group>"; };
+		901765FD85CDD2615CEABF4D6E382CFF /* Pods-instaCloneTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-instaCloneTests-umbrella.h"; sourceTree = "<group>"; };
+		9466E798093C2006812609BB8838AA6E /* Pods-instaCloneTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-instaCloneTests.modulemap"; sourceTree = "<group>"; };
+		951B0E518BC2CD16C0AF562DAA0D2948 /* Pods-instaClone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-instaClone-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A30B7A7432390AAA97416D27C1F360DC /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
+		A6AC205C3418E49847BBB2A8AB4CF2F0 /* Pods-instaClone-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-instaClone-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AA103F5CF67471A1FF46E5542F67DDC0 /* Pods-instaClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-instaClone.release.xcconfig"; sourceTree = "<group>"; };
+		AA62943E5D5EEEC1106EC8C3412E155A /* Pods-instaClone-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-instaClone-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD149818960FFDE6A7E4E95FB3C6FCEB /* Pods-instaClone-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-instaClone-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		B546D6EB5269C219CB4198FDF83B6059 /* Pods-instaCloneTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-instaCloneTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B65AC26E1529895BB668F34CBAB603EF /* Pods_instaClone_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_instaClone_tvOSTests.framework; path = "Pods-instaClone-tvOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BB336B73EF9F638596DA5734D0A3B24F /* Pods-instaClone-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-instaClone-tvOS-Info.plist"; sourceTree = "<group>"; };
+		BCEB9D9B7C84CBE108F5606EFD1F6E8A /* Pods-instaCloneTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-instaCloneTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C7AB9A7EF121A5EBE2F5EBAE8A18D460 /* Pods-instaCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-instaCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9BCB49A829F181149E921DD51DDF6FF /* Pods-instaClone-tvOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-instaClone-tvOSTests-umbrella.h"; sourceTree = "<group>"; };
+		CE0B5566D4E2E30A28BBD8D37543A360 /* Pods-instaClone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-instaClone.modulemap"; sourceTree = "<group>"; };
+		D24175CC16CB7731E8F532AD9471921C /* Pods-instaClone-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-instaClone-Info.plist"; sourceTree = "<group>"; };
+		D8208BF9A43A8F9AAD6D9D141CB011D4 /* Pods-instaClone-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-instaClone-tvOS.modulemap"; sourceTree = "<group>"; };
+		DBDB92BDF7A8E611010D77B08E902CF3 /* Pods-instaClone-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-instaClone-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E773DEB297B19BD6738928B05E6A24B6 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
+		F0CB88BAB6542777D40036E306346CA0 /* AppCenterReactNativeShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterReactNativeShared.framework; path = AppCenterReactNativeShared/AppCenterReactNativeShared.framework; sourceTree = "<group>"; };
+		F1062F7D81B2856C1AB7F3AFC1DDA3C8 /* Pods-instaClone-tvOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-instaClone-tvOSTests.modulemap"; sourceTree = "<group>"; };
+		FD174A832C75A72A632382D31A7C9C48 /* Pods-instaClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-instaClone.debug.xcconfig"; sourceTree = "<group>"; };
+		FEC5A374E8ADB29C9EDDBE4A00684A25 /* AppCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E9E3DFECC133D176AEE5AAD68DCE8AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FB0936A7077ED125AFE66BD72A87C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D24B116B384D42D79D9EE3F3C627C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0001A3C543D3DA69C8A4D27E4D70B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FB93DA23AB29A683CB8F78B9623228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF48394E44D411F12584E53B74504EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0026EE6355403096C01523BE54FD840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDA8835BE4864532465632FE8626669 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		165A2A327FF6DC492FFA4E7DECE45427 /* Pods-instaClone-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				D8208BF9A43A8F9AAD6D9D141CB011D4 /* Pods-instaClone-tvOS.modulemap */,
+				A6AC205C3418E49847BBB2A8AB4CF2F0 /* Pods-instaClone-tvOS-acknowledgements.markdown */,
+				74A83C04675BE64FDC0C030155F1D2E7 /* Pods-instaClone-tvOS-acknowledgements.plist */,
+				54BCD680769CE3A34E97BB9FFD7EE4F2 /* Pods-instaClone-tvOS-dummy.m */,
+				BB336B73EF9F638596DA5734D0A3B24F /* Pods-instaClone-tvOS-Info.plist */,
+				AD149818960FFDE6A7E4E95FB3C6FCEB /* Pods-instaClone-tvOS-umbrella.h */,
+				250D31CFEBC3BA738A8FE4B75D25EF03 /* Pods-instaClone-tvOS.debug.xcconfig */,
+				7F67F69274EF59F8D90BC9E9C2EA1AD9 /* Pods-instaClone-tvOS.release.xcconfig */,
+			);
+			name = "Pods-instaClone-tvOS";
+			path = "Target Support Files/Pods-instaClone-tvOS";
+			sourceTree = "<group>";
+		};
+		28FE3E9D1E45FE180BF47AF842D66BAE /* AppCenterReactNativeShared */ = {
+			isa = PBXGroup;
+			children = (
+				F4D2C444B2834EDEA5A73008A2099184 /* Frameworks */,
+				8A8DEB86768AB442713033DF83AB96B0 /* Support Files */,
+			);
+			name = AppCenterReactNativeShared;
+			path = AppCenterReactNativeShared;
+			sourceTree = "<group>";
+		};
+		2B362BB1247A48A12367022154144B63 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEC5A374E8ADB29C9EDDBE4A00684A25 /* AppCenter.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppCenter";
+			sourceTree = "<group>";
+		};
+		2CFEFAA9D3305769C766A484A2C4D645 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				6331A11F93C389D58256AFE7E3DFB699 /* Frameworks */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		2D43EF4F51734528C1BFADD1402FB32B /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				2CFEFAA9D3305769C766A484A2C4D645 /* Analytics */,
+				365D78B64EB76D8FD1B4E1383EB58BCD /* Core */,
+				5AE9203DB9EF3A32BC3F5C28C5204761 /* Crashes */,
+				8CA6CADE963187192655799BA4EF5CA1 /* Push */,
+				2B362BB1247A48A12367022154144B63 /* Support Files */,
+			);
+			name = AppCenter;
+			path = AppCenter;
+			sourceTree = "<group>";
+		};
+		365D78B64EB76D8FD1B4E1383EB58BCD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C60FC5B19BE18CF7AF0094C096C96D97 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		43EF311DF2AD3E9F5D3702BFCE2658F3 /* Pods-instaCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				9466E798093C2006812609BB8838AA6E /* Pods-instaCloneTests.modulemap */,
+				B546D6EB5269C219CB4198FDF83B6059 /* Pods-instaCloneTests-acknowledgements.markdown */,
+				BCEB9D9B7C84CBE108F5606EFD1F6E8A /* Pods-instaCloneTests-acknowledgements.plist */,
+				8CC419955633610C57213D962F26A17C /* Pods-instaCloneTests-dummy.m */,
+				7C042675DF509A00B44DA8AA60B8D6DB /* Pods-instaCloneTests-Info.plist */,
+				901765FD85CDD2615CEABF4D6E382CFF /* Pods-instaCloneTests-umbrella.h */,
+				C7AB9A7EF121A5EBE2F5EBAE8A18D460 /* Pods-instaCloneTests.debug.xcconfig */,
+				46D3D93D5031F914DAD79D01673B45D8 /* Pods-instaCloneTests.release.xcconfig */,
+			);
+			name = "Pods-instaCloneTests";
+			path = "Target Support Files/Pods-instaCloneTests";
+			sourceTree = "<group>";
+		};
+		51B9FEFC3BE1F11EC6026DF60CA9D369 /* Pods-instaClone-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1062F7D81B2856C1AB7F3AFC1DDA3C8 /* Pods-instaClone-tvOSTests.modulemap */,
+				2ABB217D502431689F62EABA584161D6 /* Pods-instaClone-tvOSTests-acknowledgements.markdown */,
+				DBDB92BDF7A8E611010D77B08E902CF3 /* Pods-instaClone-tvOSTests-acknowledgements.plist */,
+				8BE1FCC480F5185CA43E68754A60412F /* Pods-instaClone-tvOSTests-dummy.m */,
+				49C3C1821883D89CB40775D2ADC0AF67 /* Pods-instaClone-tvOSTests-Info.plist */,
+				C9BCB49A829F181149E921DD51DDF6FF /* Pods-instaClone-tvOSTests-umbrella.h */,
+				1A509041765CD8139932A88033D68213 /* Pods-instaClone-tvOSTests.debug.xcconfig */,
+				AA62943E5D5EEEC1106EC8C3412E155A /* Pods-instaClone-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-instaClone-tvOSTests";
+			path = "Target Support Files/Pods-instaClone-tvOSTests";
+			sourceTree = "<group>";
+		};
+		5AE9203DB9EF3A32BC3F5C28C5204761 /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				C1A16900848282A30EF525E1027778D6 /* Frameworks */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
+		6331A11F93C389D58256AFE7E3DFB699 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53628B18AE386BE2D2A1E24BADA249C8 /* AppCenterAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		658DF18E1BC0DB01C503ED3A18FAD8F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60149D9BBE48AD20253E4B0CFE22B78E /* AppCenterPush.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71BF10D9671F60B91D333968CED34958 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		8910DE18F4068EE7F2F8E36E5101A369 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A88CC71D6E55F0202A23277A509BCA0 /* iOS */,
+				71BF10D9671F60B91D333968CED34958 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A8DEB86768AB442713033DF83AB96B0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				760435C5BFDA5873C4EEDE9143B6CC8A /* AppCenterReactNativeShared.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppCenterReactNativeShared";
+			sourceTree = "<group>";
+		};
+		8CA6CADE963187192655799BA4EF5CA1 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				658DF18E1BC0DB01C503ED3A18FAD8F5 /* Frameworks */,
+			);
+			name = Push;
+			sourceTree = "<group>";
+		};
+		9A88CC71D6E55F0202A23277A509BCA0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9B4B3A7921C1B3D44E8472EAC82E21C7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8FA02F5674E35FBAB663F6C19757E /* Pods-instaClone */,
+				165A2A327FF6DC492FFA4E7DECE45427 /* Pods-instaClone-tvOS */,
+				51B9FEFC3BE1F11EC6026DF60CA9D369 /* Pods-instaClone-tvOSTests */,
+				43EF311DF2AD3E9F5D3702BFCE2658F3 /* Pods-instaCloneTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B76E3ECB2914751A360C7957E6A5901D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D43EF4F51734528C1BFADD1402FB32B /* AppCenter */,
+				28FE3E9D1E45FE180BF47AF842D66BAE /* AppCenterReactNativeShared */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BFC8FA02F5674E35FBAB663F6C19757E /* Pods-instaClone */ = {
+			isa = PBXGroup;
+			children = (
+				CE0B5566D4E2E30A28BBD8D37543A360 /* Pods-instaClone.modulemap */,
+				64FEF27862412AB30BCD4BAE8FBFC1B0 /* Pods-instaClone-acknowledgements.markdown */,
+				78600FDF3572B9EC2B96B958DF798711 /* Pods-instaClone-acknowledgements.plist */,
+				951B0E518BC2CD16C0AF562DAA0D2948 /* Pods-instaClone-dummy.m */,
+				D24175CC16CB7731E8F532AD9471921C /* Pods-instaClone-Info.plist */,
+				1C4A0211C57F5A0335131AE30793AA6A /* Pods-instaClone-umbrella.h */,
+				FD174A832C75A72A632382D31A7C9C48 /* Pods-instaClone.debug.xcconfig */,
+				AA103F5CF67471A1FF46E5542F67DDC0 /* Pods-instaClone.release.xcconfig */,
+			);
+			name = "Pods-instaClone";
+			path = "Target Support Files/Pods-instaClone";
+			sourceTree = "<group>";
+		};
+		C1A16900848282A30EF525E1027778D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E773DEB297B19BD6738928B05E6A24B6 /* AppCenterCrashes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C60FC5B19BE18CF7AF0094C096C96D97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A30B7A7432390AAA97416D27C1F360DC /* AppCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8910DE18F4068EE7F2F8E36E5101A369 /* Frameworks */,
+				B76E3ECB2914751A360C7957E6A5901D /* Pods */,
+				F943CFA0A3E857DD8A59E8838821DB4A /* Products */,
+				9B4B3A7921C1B3D44E8472EAC82E21C7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F4D2C444B2834EDEA5A73008A2099184 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0CB88BAB6542777D40036E306346CA0 /* AppCenterReactNativeShared.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F943CFA0A3E857DD8A59E8838821DB4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				440B829329570A460A274EC3AB35563B /* Pods_instaClone.framework */,
+				474E51E8D126876E14E4E7BB67AF1D79 /* Pods_instaClone_tvOS.framework */,
+				B65AC26E1529895BB668F34CBAB603EF /* Pods_instaClone_tvOSTests.framework */,
+				0ADA48E7F3966DD766936F8954C1BB82 /* Pods_instaCloneTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28A0B2E7B50F70D793C1F116BE277E55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1C7D51D89BC2B155418876AFB758CD /* Pods-instaClone-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370016673164A662396A88C89453DBCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2073320F46452C5B8BD65FAC59E691C /* Pods-instaClone-tvOSTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A156C69859C3150D0F004C76ECB8441 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905B055407336CCD6556FFDC8B35E8FA /* Pods-instaCloneTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26A3582233CA07B8F01CDDC77BE5819 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BD506AF49954A55C9ADC82248A0DD5 /* Pods-instaClone-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19BD363607890ED0185AF315FAD7D229 /* Pods-instaCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4843E4B3DB37ACCE319CA958C4B37DB7 /* Build configuration list for PBXNativeTarget "Pods-instaCloneTests" */;
+			buildPhases = (
+				7A156C69859C3150D0F004C76ECB8441 /* Headers */,
+				E1BE7588EEC24206182C3ABE11E9D4C2 /* Sources */,
+				5D24B116B384D42D79D9EE3F3C627C6A /* Frameworks */,
+				4F25072559F69B27B50B5C2208A5A16B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68B788861E35CC2BE728A632987D0720 /* PBXTargetDependency */,
+			);
+			name = "Pods-instaCloneTests";
+			productName = "Pods-instaCloneTests";
+			productReference = 0ADA48E7F3966DD766936F8954C1BB82 /* Pods_instaCloneTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB5B84139442ADE9CF14B1B0606D9026 /* Pods-instaClone-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 055C388B65FD19BA907C2A8ADD37AB04 /* Build configuration list for PBXNativeTarget "Pods-instaClone-tvOS" */;
+			buildPhases = (
+				28A0B2E7B50F70D793C1F116BE277E55 /* Headers */,
+				51DE9396E2A4293010B7B02BC69267C3 /* Sources */,
+				D6FB93DA23AB29A683CB8F78B9623228 /* Frameworks */,
+				799CC938FB09A738138D6071B93D9652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-instaClone-tvOS";
+			productName = "Pods-instaClone-tvOS";
+			productReference = 474E51E8D126876E14E4E7BB67AF1D79 /* Pods_instaClone_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7F2D2DB2E39A3BA28C59F84ABD5CE59 /* Pods-instaClone-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CABFB8F02A4C5029B2E2A789D6BA36 /* Build configuration list for PBXNativeTarget "Pods-instaClone-tvOSTests" */;
+			buildPhases = (
+				370016673164A662396A88C89453DBCB /* Headers */,
+				259C3A38D6120146C943131CAB94B422 /* Sources */,
+				F0026EE6355403096C01523BE54FD840 /* Frameworks */,
+				636F2526BFE95ABC536BBAB95AF96EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57797E1A114F9CB64F756E92C89EC375 /* PBXTargetDependency */,
+			);
+			name = "Pods-instaClone-tvOSTests";
+			productName = "Pods-instaClone-tvOSTests";
+			productReference = B65AC26E1529895BB668F34CBAB603EF /* Pods_instaClone_tvOSTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD33F60BF94684ACAFA3621F2489A24D /* Pods-instaClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19EC16CE4BF0F2F4AC76A56AA935C62E /* Build configuration list for PBXNativeTarget "Pods-instaClone" */;
+			buildPhases = (
+				C26A3582233CA07B8F01CDDC77BE5819 /* Headers */,
+				5C08CDFB9BCBFE0E4BB75F691076A0F6 /* Sources */,
+				3E9E3DFECC133D176AEE5AAD68DCE8AB /* Frameworks */,
+				0E9EBF89D200D4B2D3BFEFDA7DD54535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D85AB9FE19B7EEC918A4643212ADAAD /* PBXTargetDependency */,
+				94EF91EA7AEB065158F6FAB4F514F97B /* PBXTargetDependency */,
+			);
+			name = "Pods-instaClone";
+			productName = "Pods-instaClone";
+			productReference = 440B829329570A460A274EC3AB35563B /* Pods_instaClone.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F943CFA0A3E857DD8A59E8838821DB4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */,
+				2CD32458A161AF8E4BA58B4310701AB3 /* AppCenterReactNativeShared */,
+				DD33F60BF94684ACAFA3621F2489A24D /* Pods-instaClone */,
+				AB5B84139442ADE9CF14B1B0606D9026 /* Pods-instaClone-tvOS */,
+				D7F2D2DB2E39A3BA28C59F84ABD5CE59 /* Pods-instaClone-tvOSTests */,
+				19BD363607890ED0185AF315FAD7D229 /* Pods-instaCloneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E9EBF89D200D4B2D3BFEFDA7DD54535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F25072559F69B27B50B5C2208A5A16B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636F2526BFE95ABC536BBAB95AF96EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		799CC938FB09A738138D6071B93D9652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		259C3A38D6120146C943131CAB94B422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A28974E428D76378EB5F4D0C0380C53 /* Pods-instaClone-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51DE9396E2A4293010B7B02BC69267C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3561DAE9AFA7543B2B18D27CC598AC5E /* Pods-instaClone-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C08CDFB9BCBFE0E4BB75F691076A0F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA584D8E8362A4AA6A214D36669098D /* Pods-instaClone-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BE7588EEC24206182C3ABE11E9D4C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5737E944C70DCB62C97B0F26A7E4428E /* Pods-instaCloneTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0051E4214884EF5346A2A55966EC832B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */;
+			targetProxy = D96B09CB6F7CDF72F3099DD83AD5AB87 /* PBXContainerItemProxy */;
+		};
+		57797E1A114F9CB64F756E92C89EC375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-instaClone-tvOS";
+			target = AB5B84139442ADE9CF14B1B0606D9026 /* Pods-instaClone-tvOS */;
+			targetProxy = 51A94E53EA3CEFA5D5B9ADBA475BBBA1 /* PBXContainerItemProxy */;
+		};
+		68B788861E35CC2BE728A632987D0720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-instaClone";
+			target = DD33F60BF94684ACAFA3621F2489A24D /* Pods-instaClone */;
+			targetProxy = 3414719F541D8AA9258AAD508BD6EC72 /* PBXContainerItemProxy */;
+		};
+		6D85AB9FE19B7EEC918A4643212ADAAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */;
+			targetProxy = A5D5CFFE64BE5CD1FF41BB38DDA59CEA /* PBXContainerItemProxy */;
+		};
+		94EF91EA7AEB065158F6FAB4F514F97B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenterReactNativeShared;
+			target = 2CD32458A161AF8E4BA58B4310701AB3 /* AppCenterReactNativeShared */;
+			targetProxy = CE79317110C59798F733744FF619FFB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		006ECCF1C17CE486F59FA774BA2B16E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA62943E5D5EEEC1106EC8C3412E155A /* Pods-instaClone-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-instaClone-tvOSTests/Pods-instaClone-tvOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-instaClone-tvOSTests/Pods-instaClone-tvOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34453F9D63EFBAE20EF89389CFB7CB7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD174A832C75A72A632382D31A7C9C48 /* Pods-instaClone.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-instaClone/Pods-instaClone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-instaClone/Pods-instaClone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44DA8D30A185CF39FF38CACD51676CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 760435C5BFDA5873C4EEDE9143B6CC8A /* AppCenterReactNativeShared.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44E48A4EDA9117080F3B05AA953BD793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46D3D93D5031F914DAD79D01673B45D8 /* Pods-instaCloneTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-instaCloneTests/Pods-instaCloneTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-instaCloneTests/Pods-instaCloneTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5254D3BB10A040E6CCDA316FF0A3CE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A509041765CD8139932A88033D68213 /* Pods-instaClone-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-instaClone-tvOSTests/Pods-instaClone-tvOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-instaClone-tvOSTests/Pods-instaClone-tvOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65EB12CC44BB5F4E2C314D1F47A5641D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 250D31CFEBC3BA738A8FE4B75D25EF03 /* Pods-instaClone-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-instaClone-tvOS/Pods-instaClone-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-instaClone-tvOS/Pods-instaClone-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68F07807C8D62F2D76C744A41F3D874D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		6F4D25CB9F599D775DBC451590213731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC5A374E8ADB29C9EDDBE4A00684A25 /* AppCenter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A791558A6CAD52F6A29BE7CDFC70C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC5A374E8ADB29C9EDDBE4A00684A25 /* AppCenter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A253C38980747B7F2BF7591DF04A9FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA103F5CF67471A1FF46E5542F67DDC0 /* Pods-instaClone.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-instaClone/Pods-instaClone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-instaClone/Pods-instaClone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4939254D9B12C5F8E84CFE6C51D11AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 760435C5BFDA5873C4EEDE9143B6CC8A /* AppCenterReactNativeShared.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D665228D99078C29751596B579C43F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7AB9A7EF121A5EBE2F5EBAE8A18D460 /* Pods-instaCloneTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-instaCloneTests/Pods-instaCloneTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-instaCloneTests/Pods-instaCloneTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE273177F63427B0BDB24DF39E220D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F67F69274EF59F8D90BC9E9C2EA1AD9 /* Pods-instaClone-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-instaClone-tvOS/Pods-instaClone-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-instaClone-tvOS/Pods-instaClone-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1ED6DABFEFD9C54EE38EDA3D2F7092C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		055C388B65FD19BA907C2A8ADD37AB04 /* Build configuration list for PBXNativeTarget "Pods-instaClone-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65EB12CC44BB5F4E2C314D1F47A5641D /* Debug */,
+				DE273177F63427B0BDB24DF39E220D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19EC16CE4BF0F2F4AC76A56AA935C62E /* Build configuration list for PBXNativeTarget "Pods-instaClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34453F9D63EFBAE20EF89389CFB7CB7A /* Debug */,
+				A253C38980747B7F2BF7591DF04A9FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1ED6DABFEFD9C54EE38EDA3D2F7092C /* Debug */,
+				68F07807C8D62F2D76C744A41F3D874D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4843E4B3DB37ACCE319CA958C4B37DB7 /* Build configuration list for PBXNativeTarget "Pods-instaCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D665228D99078C29751596B579C43F88 /* Debug */,
+				44E48A4EDA9117080F3B05AA953BD793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49CABFB8F02A4C5029B2E2A789D6BA36 /* Build configuration list for PBXNativeTarget "Pods-instaClone-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5254D3BB10A040E6CCDA316FF0A3CE70 /* Debug */,
+				006ECCF1C17CE486F59FA774BA2B16E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1AADDABC0FF92BF51AC88E6BD57DB25 /* Build configuration list for PBXAggregateTarget "AppCenterReactNativeShared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4939254D9B12C5F8E84CFE6C51D11AE /* Debug */,
+				44DA8D30A185CF39FF38CACD51676CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0944D0DEFF9CDF0CBE6D4A41B195020 /* Build configuration list for PBXAggregateTarget "AppCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4D25CB9F599D775DBC451590213731 /* Debug */,
+				8A791558A6CAD52F6A29BE7CDFC70C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
