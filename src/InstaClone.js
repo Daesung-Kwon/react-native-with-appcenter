@@ -1,7 +1,23 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
 import AlertExample from './components/util/Alert.js'
+import Push from 'appcenter-push';
 
+
+const aaa = '123';
+const pushEnabled = (async () => {
+    await Push.isEnabled();
+}) () == null ? 'null' : 'not null';
+
+class PushEnabledStatus extends Component {
+    render() {
+      return (
+        <View style={{alignItems: 'center'}}>
+          <Text>Hello {this.props.status}!</Text>
+        </View>
+      );
+    }
+  }
 
 class InstaClone extends Component {
     
@@ -18,6 +34,10 @@ class InstaClone extends Component {
 
                 <View style={styles.tempNav}>
                     <AlertExample/>
+                </View>
+
+                <View style={styles.tempNav}>
+                    <PushEnabledStatus status={this.pushEnabled + this.aaa + '  WTF'} />  
                 </View>
             </View>
         )
