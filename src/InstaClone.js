@@ -39,6 +39,10 @@ class InstaClone extends Component {
                 <View style={styles.tempNav}>
                     <PushEnabledStatus status={this.pushEnabled + this.aaa + '  WTF'} />  
                 </View>
+
+                <View style={styles.tempNav}>
+                    <PushEnabledStatus status={this.pushEnabled + this.aaa + '  WTF'} />  
+                </View>
             </View>
         )
     }
